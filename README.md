@@ -1,1 +1,1 @@
-These are the codes in R accompanying the manuscript "Linking metabolic scaling and coexistence theories" by Serguei Saavedra, José Ignacio Arroyo, Pablo A. Marquet, Chris P. Kempes. The code is well commented. The codes in R reproduce Panel B, Panel C, and Panel D from the paper.
+These are the codes in R accompanying the manuscript "Integrating metabolic scaling and coexistence theories" by Serguei Saavedra, José Ignacio Arroyo, Jie Deng, Pablo A. Marquet, Chris P. Kempes. The code is well commented. The codes in R reproduce Figure 2 from the paper.
