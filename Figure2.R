@@ -47,7 +47,7 @@ v_mt <- function(beta,num,M){
 
 
 ### initialization
-num = 5 # number of species
+num = 50 # number of species
 loop <- 10^4  ### How many iterations
 ### ramnge of betas to study
 rbeta <- c(-2,-1.75,-1.5,-1.25,-1,-0.75,-0.5,-0.25,0,0.25,0.5,0.75,1,1.25,1.5,1.75,2)
@@ -63,7 +63,7 @@ for (i in 1:length(rbeta)) {
     M <- rlnorm(num,0,2)
     M <- M / sum(M)
     E <- runif(num,0.5,0.7) ## ACTIVATION ENERGY
-    A <- interaction_matrix_random(M,num,alpha=3/4,E)  ## fixed ALPHA
+    A <- interaction_matrix_random(M,num,alpha=-1/4,E)  ## fixed ALPHA
     r_mt <- v_mt(beta,num,M)  ## VECTOR K
     angle_tem[j] <- theta(-A,r_mt)
   }
